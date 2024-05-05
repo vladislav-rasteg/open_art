@@ -1,0 +1,12 @@
+@import "@/shared/styles/variables.scss";
+
+.case_card{
+    display: flex;
+    flex-direction: column;
+    gap: $medium_gap;
+}
+
+.case_name{
+    font-size: 1.6rem;
+    font-weight: 500;
+}

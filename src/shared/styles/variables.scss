@@ -1,0 +1,47 @@
+$text_primary: #FFFFFF;
+$text_secondary: #A6A6A7;
+$placeholder: #A6A6A7;
+$error: #DE1F5B;
+$bg_color: #131315;
+$bg_island: #F9FBFF;
+$border_primary: rgba(67, 88, 117, 0.1);
+$border_secondary: rgba(67, 88, 117, 0.18);
+$brand-color: #007BFF;
+$button_primary: #FFFFFF;
+$button_primary_hover: rgba(255,255,255,0.9);
+$button_color: #000000;
+$button_tetrinary: rgba(67, 88, 117, 0.08);
+$button_tetrinary_hover: rgba(67, 88, 117, 0.14);
+$button_disabled: rgba(67, 88, 117, 0.05);
+$button_disabled_color: #8E9EB5;
+$button_ghost_hover: #E1EDFF;
+
+$input_border: #8E9EB5;
+$input_border_active: #007BFF;
+
+$default_border_radius: 1.6rem;
+
+$page_padding: 1.6rem;
+
+$small_gap: 0.4rem;
+$medium_gap: 1.2rem;
+$large_gap: 2.2rem;
+    
+:root{
+    --background_island: #F5F6F8;
+    --icon_contrat: #56667D;
+    --border_primary: rgba(67, 88, 117, 0.1);
+    --border_secondary: rgba(67, 88, 117, 0.18);
+    --text_secondary: #757575;
+    --text_placeholder: #8E9EB5;
+    --brand-color: #007BFF;
+    --input_bg: #EDF3FC;
+    --default_field_with: 36rem;
+
+    --chart_bg: #FDFDFF;
+    --chart_positive: #16c784;
+    --chart_negative: #F44370;
+    --chart_color_primary: #5EABF2;
+    --chart_color_secondary: #9C6CF3;
+    --chart_secondary_color: #708097;
+}

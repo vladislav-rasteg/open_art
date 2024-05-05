@@ -1,0 +1,9 @@
+@import "@/shared/styles/variables.scss";
+
+.case_list{
+    display: flex;
+    flex-direction: column;
+    row-gap: $medium_gap;
+    width: 100%;
+    background: $bg_color;
+}

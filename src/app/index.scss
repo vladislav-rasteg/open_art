@@ -1,0 +1,84 @@
+@import "@/shared/styles/variables.scss";
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: calc(100vw / 360 * 9);
+}
+
+.app_wrapper{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  min-width: 100vw;
+  min-height: 100vh;
+  justify-content: center;
+  background: #1B1B1B;
+}
+
+.page{
+  display: flex;
+  width: 100%;
+  padding: $page_padding;
+  flex-direction: column;
+  row-gap: 3.2rem;
+}
+
+h1{
+  font-size: 3.2rem;
+  line-height: 3.4rem;
+}
+
+body {
+  margin: 0;
+  font-family: 'Golos Text', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #F9FBFF;
+  font-size: 1.4rem;
+  
+  color: $text_primary
+}
+
+.recharts-wrapper .recharts-cartesian-grid-vertical line:nth-last-child(1),
+.recharts-wrapper .recharts-cartesian-grid-vertical line:nth-last-child(2) {
+      stroke-opacity: 0;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: $text_primary;
+    transition: background-color 5000s ease-in-out 0s;
+    box-shadow: inset 0 0 20px 20px #ffffff;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: $placeholder;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+ color: $placeholder;
+ opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+ color: $placeholder;
+ opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: $placeholder;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: $placeholder;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+ color: $placeholder;
+}

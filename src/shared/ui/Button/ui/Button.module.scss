@@ -1,0 +1,81 @@
+@import "@/shared/styles/variables.scss";
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    height: 4.6rem;
+    padding: 0px 3.2rem;
+    border-radius: $default_border_radius;
+    border: none;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.big{
+    height: 60px;
+    padding: 18px 64px;
+}
+
+.disabled{
+    background: $button_disabled !important;
+    color: $button_disabled_color !important;
+    border: none !important;
+}
+
+.iconOnly{
+    padding: 0;
+    width: 46px;
+    height: 46px;
+}
+
+.fullWidth{
+    width: 100%;
+}
+
+.ghost{
+    background: transparent;
+    color: $button_primary;
+
+    &:hover{
+        background: $button_ghost_hover;
+    }
+}
+
+.primary{
+    background: $button_primary;
+    color: $button_color;
+
+    &:hover{
+        background: $button_primary_hover;
+    }
+}
+
+.secondary{
+    font-size: 1.4rem;
+    padding: 0.4rem;
+    background: rgba(255,255,255, 0.1);
+    color: $text_primary;
+}
+
+.tetrinary{
+    background: $button_tetrinary;
+    border: 1px solid $border_secondary;
+}
+
+.tetrinary:hover{
+    background: $button_tetrinary_hover;
+}
+
+.border{
+    background: none;
+    border: 1px solid $border_secondary;
+}
+
+.border:hover{
+    background: $button_tetrinary;
+}

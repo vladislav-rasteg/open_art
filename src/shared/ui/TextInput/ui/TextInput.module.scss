@@ -1,0 +1,46 @@
+@import "@/shared/styles/variables.scss";
+
+.input{
+    padding: 20px 22px;
+    font-size: 16px;
+    width: 420px;
+    border: 1px solid $input_border;
+    border-radius: $default_border_radius;
+    background-color: transparent;
+    background: transparent;
+
+    &.fullWidth{
+        width: 100%;
+    }
+
+    &:active {
+        outline: 0;
+        outline-offset: 0;
+        box-shadow: none;
+    }
+
+    &:hover {
+        outline: 0;
+        outline-offset: 0;
+        box-shadow: none;
+    }
+
+    &:focus {
+        outline: 0;
+        outline-offset: 0;
+        box-shadow: none;
+        border: 1px solid $input_border_active;
+    }
+
+    &.error{
+        border: 1px solid $error !important;
+    }
+}
+
+.input_error_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: flex-start;
+    color: $error;
+}
