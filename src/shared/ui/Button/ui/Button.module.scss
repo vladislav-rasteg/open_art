@@ -57,9 +57,15 @@
 
 .secondary{
     font-size: 1.4rem;
-    padding: 0.4rem;
+    padding: 0.6rem;
     background: rgba(255,255,255, 0.1);
     color: $text_primary;
+    height: fit-content;
+    transition: 300ms;
+
+    &:hover{
+        background: rgba(255,255,255, 0.2);
+    }
 }
 
 .tetrinary{

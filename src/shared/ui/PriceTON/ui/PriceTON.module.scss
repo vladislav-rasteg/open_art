@@ -1,0 +1,26 @@
+@import "@/shared/styles/variables.scss";
+
+.price_ton{
+    display: flex;
+    gap: 0.4rem;
+    font-weight: 500;
+    align-items: center;
+}
+
+.icon{
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+.small .icon{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.dark{
+    color: $text_inverse;
+
+    & img{
+        filter: invert(1);
+    }
+}

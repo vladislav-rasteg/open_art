@@ -4,5 +4,6 @@ export interface INftCase {
     min_price: number,
     max_price: number,
     creator: string,
-    price: number
+    price: number,
+    cover_url: string
 }

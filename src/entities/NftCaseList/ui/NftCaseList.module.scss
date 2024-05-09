@@ -1,7 +1,9 @@
 @import "@/shared/styles/variables.scss";
 
 .case_list{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: $medium_gap;
     flex-direction: column;
     row-gap: $medium_gap;
     width: 100%;
